@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#F23838</color>
+    <color name="marron">#731919</color>
+    <color name="vino">#BF2A2A</color>
+</resources>
