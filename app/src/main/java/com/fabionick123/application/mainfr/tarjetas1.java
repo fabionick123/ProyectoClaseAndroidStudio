@@ -1,4 +1,4 @@
-package com.fabionick123.application;
+package com.fabionick123.application.mainfr;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -29,6 +29,21 @@ public class tarjetas1 extends Fragment {
                 tarjetas1.findViewById(R.id.tarjeta4),
                 tarjetas1.findViewById(R.id.tarjeta5)
         ));
+        for (ConstraintLayout tarjeta1: tarjetas){
+            tarjeta1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mostrarError();
+                }
+            });
+        }
         return tarjetas1;
+    }
+    public void mostrarError(){
+        new AlertDialog.Builder(getContext())
+                .setTitle("¡TIENES ESCALERAAA!")
+                .setMessage("APUESTAS??????")
+                .setPositiveButton("SIUUUUUUU", (dialog, which) -> Toast.makeText(getContext(), "que crack", Toast.LENGTH_SHORT).show())
+                .setNegativeButton("NANCI", (dialog, which) -> Toast.makeText(getContext(), "looser", Toast.LENGTH_SHORT).show()).show();
     }
 }

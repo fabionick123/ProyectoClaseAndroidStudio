@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true;
+    }
     namespace = "com.fabionick123.application"
     compileSdk = 36
 

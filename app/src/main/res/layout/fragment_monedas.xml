@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Peces">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Aqui deberia ir la vaina" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <include layout="@layout/activity_tarjeta2" android:id="@+id/tarjeta1"/>
+            <include layout="@layout/activity_tarjeta2" android:id="@+id/tarjeta2"/>
+            <include layout="@layout/activity_tarjeta2" android:id="@+id/tarjeta3"/>
+            <include layout="@layout/activity_tarjeta2" android:id="@+id/tarjeta4"/>
+            <include layout="@layout/activity_tarjeta2" android:id="@+id/tarjeta5"/>
+        </LinearLayout>
+    </ScrollView>
+
 
 </FrameLayout>

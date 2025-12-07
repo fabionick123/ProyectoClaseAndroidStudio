@@ -28,9 +28,6 @@
         app:layout_constraintGuide_percent="0.33"
         />
 
-
-
-
     <ImageView
         android:id="@+id/splashLogo"
         android:layout_width="154dp"
