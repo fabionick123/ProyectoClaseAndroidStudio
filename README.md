@@ -1,4 +1,4 @@
-# Aplicación Android de Registro, Login y Visualización de Tarjetas
+# Aplicación Android
 
 Esta aplicación Android permite a los usuarios registrarse, iniciar sesión y visualizar un conjunto de tarjetas mediante un **ViewPager**. Está desarrollada con **Java** y utiliza **Fragments**, **ViewBinding** y **SharedPreferences**.
 ---
